@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Formula - Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="" /><!--We will need a really small version of the f1 logo to put here-->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet"><!--I just used the font f1 uses on their website-->
+</head>
+<body>
+
+
+    <a href="homepage.html"><img src="f1_logo.png"></a><!--clickable logo that takes you to the homepage-->
+
+    <nav id="navigation" class="staticnav">
+      <ul class="navbar">
+        <li><a id="box" href="homepage.html">Home</a></li>
+        <li><a id="box" href="">History</a></li>
+        <li><a id="box" href="">Outside the Championship</a></li>
+        <li><a id="box" href="">Racing and Strategy</a></li>
+        <li><a id="box" href="">Constructors</a></li>
+        <li><a id="box" href="">Grands Prix</a></li>
+        <li><a id="box" href="">Circuits</a></li>
+        <li><a id="box" href="">Cars and Technology</a></li>
+        <li><a id="box" href="">Revenue and Profits</a></li>
+        <li><a id="box" href="">Media Coverage</a></li>
+        <li><a id="box" href="">F1 and the World Championship</a></li>
+        <li><a id="box" href="">References</a></li>
+       </ul>
+
+
+        <script>
+        //this script should make the navigation bar visible even when scrolling down the page
+          var body = document.getElementsByTagName("body")[0];
+          var navigation = document.getElementById("navigation");
+
+          window.addEventListener("scroll", function(evt) {
+            if (body.scrollTop > navigation.getBoundingClientRect().bottom) {
+              // when the scroll's y is bigger than the nav's y set class to fixednav
+              navigation.className = "fixednav"
+            } else { // Otherwise set the class to staticnav
+              navigation.className = "staticnav"
+            }
+          });
+        </script>
+    </nav>
+
+</body>
+</html>
