@@ -20,6 +20,7 @@ body{
 			padding: 0;
 			overflow: hidden;
 			background-color: #E10600;
+			width: 100%;
 		}
 
 		li {
@@ -27,6 +28,7 @@ body{
 		}
 
 		li a {
+			font-weight: bold;
 			display: block;
 			color: white;
 			text-align: center;
