@@ -1,0 +1,30 @@
+
+#cardTitle{
+  text-align: center;
+  text-decoration: underline;
+  font-family: monospace;
+}
+
+p{
+  font-size: 20px;
+}
+
+#textCont{
+  margin-top: 69px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  background-color: #F0F0F0;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 2%;
+    left: 0;
+    width: 100%;
+    font-size: 60px;
+    color: white;
+}

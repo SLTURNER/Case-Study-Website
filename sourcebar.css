@@ -1,0 +1,35 @@
+#sourceBar{
+  position:fixed;
+  width:200px;
+  height:100%;
+  background-color: #ff2800;
+  right: -200px;
+  transition: all 500ms linear;
+}
+
+#sourceBar.active {
+  right: 0px;
+}
+
+#sourceBar ul li {
+  font-weight: bold
+  font-size: 15px;
+  color: white;
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid white;
+}
+
+#sourceBar .toggle-btn2 {
+  position: absolute;
+  right: 230px;
+  top: 20px;
+}
+
+#sourceBar .toggle-btn2 span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 5px 0px;
+}
