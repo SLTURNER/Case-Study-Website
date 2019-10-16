@@ -31,6 +31,15 @@ h1{
   border-bottom: 1px solid white;
 }
 
+#sidebar ul li:hover{
+  background-color: #8b0000;
+  }
+
+#sidebar ul li a:hover{
+  color: white;
+  }
+
+
 #sidebar .toggle-btn {
   position: absolute;
   left: 230px;
@@ -74,6 +83,14 @@ h1{
   padding: 15.5px 10px;
   border-bottom: 1px solid white;
 }
+
+#sourceBar ul li:hover{
+  background-color: #8b0000;
+  }
+
+#sourceBar ul li a:hover{
+  color: white;
+  }
 
 #sourceBar .toggle-btn2 {
   position: absolute;
