@@ -2,7 +2,6 @@
 *{
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
 }
 
 h1{
@@ -10,6 +9,7 @@ h1{
 }
 
 #sidebar{
+  z-index: 100;
   position:fixed;
   width:200px;
   height:100%;
@@ -23,22 +23,13 @@ h1{
 }
 
 #sidebar ul li {
-  font-weight: bold
+  font-weight: bold;
   font-size: 15px;
   color: white;
   list-style: none;
   padding: 14.5px 10px;
   border-bottom: 1px solid white;
 }
-
-#sidebar ul li:hover{
-  background-color: #8b0000;
-  }
-
-#sidebar ul li a:hover{
-  color: white;
-  }
-
 
 #sidebar .toggle-btn {
   position: absolute;
@@ -50,7 +41,7 @@ h1{
   display: block;
   width: 30px;
   height: 5px;
-  background-color: black;
+  background-color: #ff2800;
   margin: 5px 0px;
 }
 
@@ -63,6 +54,7 @@ h1{
 /* Source bar css */
 
 #sourceBar{
+  z-index: 100;
   position:fixed;
   width:200px;
   height:100%;
@@ -76,21 +68,13 @@ h1{
 }
 
 #sourceBar ul li {
-  font-weight: bold
-  font-size: 15px;
+  font-weight: bold;
+  font-ssize: 15px;
   color: white;
   list-style: none;
-  padding: 15.5px 10px;
+  padding: 15px 5px;
   border-bottom: 1px solid white;
 }
-
-#sourceBar ul li:hover{
-  background-color: #8b0000;
-  }
-
-#sourceBar ul li a:hover{
-  color: white;
-  }
 
 #sourceBar .toggle-btn2 {
   position: absolute;
@@ -102,6 +86,6 @@ h1{
   display: block;
   width: 30px;
   height: 5px;
-  background-color: black;
+  background-color: #ff2800;
   margin: 5px 0px;
 }
