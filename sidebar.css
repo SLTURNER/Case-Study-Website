@@ -11,10 +11,10 @@ h1{
 #sidebar{
   z-index: 100;
   position:fixed;
-  width:200px;
+  width:15vw;
   height:100%;
   background-color: #ff2800;
-  left: -200px;
+  left: -15vw;
   transition: all 500ms linear;
 }
 
@@ -24,16 +24,14 @@ h1{
 
 #sidebar ul li {
   font-weight: bold;
-  font-size: 15px;
   color: white;
   list-style: none;
-  padding: 14.5px 10px;
   border-bottom: 1px solid white;
 }
 
 #sidebar .toggle-btn {
   position: absolute;
-  left: 230px;
+  left: 20vw;
   top: 20px;
 }
 
@@ -45,10 +43,15 @@ h1{
   margin: 5px 0px;
 }
 
-#barHead{
+.barHead{
+
+}
+
+.barHead h1 {
   font-weight: bold;
-  font-size: 30px; !important
+  font-size: 3.5vw;
   font-family: 'Titillium Web' sans-serif;
+  padding: 0 1vh;
 }
 
 /* Source bar css */
@@ -56,29 +59,27 @@ h1{
 #sourceBar{
   z-index: 100;
   position:fixed;
-  width:200px;
+  width: 15vw;
   height:100%;
   background-color: #ff2800;
-  right: -200px;
+  right: -15vw;
   transition: all 500ms linear;
 }
 
 #sourceBar.active {
-  right: 0px;
+  right: 0vw;
 }
 
 #sourceBar ul li {
   font-weight: bold;
-  font-ssize: 15px;
   color: white;
   list-style: none;
-  padding: 15px 5px;
   border-bottom: 1px solid white;
 }
 
 #sourceBar .toggle-btn2 {
   position: absolute;
-  right: 230px;
+  right: 20vw;
   top: 20px;
 }
 
@@ -88,4 +89,23 @@ h1{
   height: 5px;
   background-color: #ff2800;
   margin: 5px 0px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.navList li:hover {
+  background-color: #8b0000;
+
+}
+
+.navList, .nav-link, .navList li {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  padding: 1vh 10px;
+  font-size: 1vw;
 }
